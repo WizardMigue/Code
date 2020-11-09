@@ -78,6 +78,12 @@
     .marron{
     background-color: brown;
     }
+    .fosforito{
+        background-color: lime;
+    }
+    .sing{
+        background-color: tan;
+    }
 }
 
 @media (min-width: 401px){
@@ -150,6 +156,11 @@
 .marron{
     background-color: brown;
 }
-
+.fosforito{
+    background-color: lime;
+}
+.sing{
+    background-color: tan;
+}
 
 }
