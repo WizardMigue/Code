@@ -7,7 +7,7 @@
 @media (max-width: 400px){
 
     abbr{
-        display: inline;
+        display: none;
     }
     th{
         text-align: center;
@@ -87,6 +87,10 @@
 }
 
 @media (min-width: 401px){
+
+    span{
+        display: none;
+    }
     th{
         text-align: center;
         border-style: solid;
@@ -161,6 +165,10 @@
 }
 .sing{
     background-color: tan;
+}
+
+td > span{
+    background-color: khaki;
 }
 
 }
