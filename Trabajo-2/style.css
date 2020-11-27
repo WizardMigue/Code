@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -58,36 +59,94 @@ aside{
 /* Versión para tablet */
 
 @media (min-width: 480px){
-    
+    aside{
+        position: absolute;
+        width: 20vh;
+        height: 90%;
+        min-height: calc(100vh - 45px);
+    }
+
+    nav{
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+        height: 45px;
+    }
+
+    header{
+        top: 50px;
+        width: 80%;
+        height: 50px;
+        position: absolute;
+        left: 20%;
+    }
+
+    main{
+        z-index: 1;
+    }
+
+    main > section{
+        left: 80%;
+        min-height: calc(100vh - 20px -45px);
+    }
 }
 @media (min-width: 800px){
-    header{
-        width: 100%;
-        height: 50px;
-    }
-    nav, aside, main{
-        top: 50px;
-        min-height: calc(100vh - 100px);
-        position: absolute;
-    }
     aside{
-        left: 0;
+        top: 50px;
         width: 20%;
-    }
-    nav{
-        right: 0;
-        width: 20%;
-    }
-    main{
-        left: 20%;
-        width: 60%;
-    }
-    footer{
-        display: block;
+        height: 80%;
         position: absolute;
-        bottom: 0;
-        height: 50px;
+        min-height: calc(100vh - 50px);
     }
 
-}
 
+    header{
+        width: 80%;
+        height: 50px;
+        position: absolute;
+        left: 20%;
+    }
+
+    footer{
+        background-color: darkorange;
+        display: block;
+        z-index: 1;
+        width: 80%;
+        height: 50px;
+        position: absolute;
+        left: 20%;
+        bottom: 0;
+    }
+
+    main{
+        top: 100px;
+        width: 80%;
+        position: absolute;
+        left: 20%;
+        min-height: calc(100vh - 100px);
+    }
+
+
+    .section1{
+        position: relative;
+        left: 0px;
+        width: 30%;
+        min-height: calc(100vh - 160px);
+        border-style: solid;
+    }
+    .section2{
+        bottom: 400px;
+        position: fixed;
+        left: 36%;
+        width: 31%;
+        border-style: solid;
+    }
+    .section3{
+        position: relative;
+        left: 72%;
+        bottom: 1067px;
+        width: 31%;
+        min-height: calc(100vh - 160px);
+        border-style: solid;
+    }
+}
