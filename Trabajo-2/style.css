@@ -12,30 +12,42 @@ header {
     background-color: lawngreen;
 }
 
+main>section{
+    text-align: center;
+}
+
+
+
 nav {
     background-color: lightcoral;
-    height: 30px;
+    height: 50px;
+
+    
 }
 
 nav>a {
     display: inline;
-    width: 5%;
-    height: 90%;
+    width: 100%;
+    height: 10px;
     text-decoration: none;
+    border: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    border-bottom: 30px;
 }
 
 nav>a>img {
-    height: 80%;
-    margin-left: 15px;
+    top: 20px;
+    height: 40%;
+
+    
 }
 
-nav>a>p {
-    display: none;
-}
+
 
 nav>a>span {
     color: black;
-    border-style: solid;
+    height: 10px;
     border-radius: 15px;
     border-width: 1px;
     display: inline
@@ -47,15 +59,15 @@ aside {
 }
 
 aside>a {
+    
     display: inline;
-    height: 90%;
     text-decoration: none;
 }
 
 aside>a>img {
-    height: 60%;
+    height: 80%;
     margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 55px;
 }
 
 aside>a>p {
@@ -63,11 +75,12 @@ aside>a>p {
 }
 
 aside>a>span {
-    color: black;
-    border-style: solid;
-    border-radius: 15px;
-    border-width: 1px;
-    display: inline
+    
+    display: none;
+}
+
+header>img{
+    display: none;
 }
 
 footer {
@@ -76,13 +89,13 @@ footer {
 
 main {
     background-color: khaki;
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 150px);
 }
 
 main>section {
     margin: 5px;
     background-color: lightskyblue;
-    height: 300px;
+    height: 600px;
 }
 
 aside {
@@ -90,6 +103,14 @@ aside {
     min-height: 40px;
     bottom: 0;
     position: fixed;
+    width: 100%;
+}
+
+#fame1{
+    width: 100%;
+}
+
+#fame2{
     width: 100%;
 }
 
@@ -101,27 +122,26 @@ aside {
         top: 50px;
         width: 20%;
         height: 80%;
-        position: absolute;
-        min-height: calc(100vh - 50px);
+        position: fixed;
+        min-height: calc(157vh - 5px);
     }
     aside>a {
         margin-top: 10px;
         display: block;
         width: 100%;
-        height: 20%;
+        height: 7%;
         text-decoration: none;
+        border: solid;
+        border-radius: 1px;
+        border-radius: 20px;
     }
+
     aside>a>img {
+        
         height: 50px;
     }
-    aside>a>p {
-        display: none;
-    }
     aside>a>span {
-        color: black;
-        border-style: solid;
-        border-radius: 15px;
-        border-width: 1px;
+        text-align: center;
         display: block;
     }
     header {
@@ -131,25 +151,69 @@ aside {
         position: absolute;
         left: 20%;
     }
+
+    header>h1{
+        position: absolute;
+        left: 15%;
+    }
+
+    header>img{
+        display: inline;
+        margin-left: 5px;
+        position: absolute;
+        width: 10%;
+        height: 50px;
+    }
     nav {
         z-index: 1;
-        position: absolute;
+        position: fixed;
         width: 100%;
         height: 45px;
+    }
+    nav>a {
+        display: inline;
+        width: 100%;
+        height: 20px;
+        text-decoration: none;
+        border: solid;
+        border-width: 1px;
+        border-radius: 20px;
+        border-bottom: 30px;
+        margin-left: 25px;
+    }
+    
+    nav>a>img {
+        top: 20px;
+        height: 60%;
+    
+        
+    }
+    
+    nav>a>span {
+        margin-left: 30px;
+        color: black;
+        height: 10px;
+        border-radius: 15px;
+        border-width: 1px;
+        display: inline
+        
     }
     main {
         top: 100px;
         width: 80%;
         position: absolute;
         left: 20%;
-        min-height: calc(100vh - 100px);
+        min-height: calc(100vh - 0px);
     }
-    main>section {
-        height: 50px;
+    section>audio{
+        width: 90%;
+    }
+    section>video{
+        width: 100%;
+        height: 130px;
     }
     .section1 {
         max-width: calc(100vh - 30%);
-        position: relative;
         left: 0;
         width: 50%;
         min-height: calc(100vh - 700px);
@@ -177,8 +241,27 @@ aside {
         top: 50px;
         width: 20%;
         height: 80%;
-        position: absolute;
+        position: fixed;
         min-height: calc(100vh - 50px);
+    }
+    aside>a {
+        margin-top: 10px;
+        display: block;
+        width: 100%;
+        height: 10%;
+        text-decoration: none;
+        border: solid;
+        border-radius: 1px;
+        border-radius: 20px;
+    }
+
+    aside>a>img {
+        
+        height: 40px;
+    }
+    aside>a>span {
+        text-align: center;
+        display: block;
     }
     header {
         width: 80%;
@@ -224,5 +307,21 @@ aside {
         width: 31%;
         min-height: calc(100vh - 160px);
         border-style: solid;
+    }
+    main>section>video{
+        height: 30%;
+    }
+
+    nav{
+        position: fixed;
+    }
+
+    nav>a{
+        border: solid;
+        border-width: 1x;
+        margin-left: 50px;
+    }
+    footer{
+        text-align: end;
     }
 }

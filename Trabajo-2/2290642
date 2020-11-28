@@ -1,0 +1,1477 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+    <head>
+        <title>04 Bonus Track by Maik Thomas: M&uacute;sica, ruidos y efectos de sonido</title>
+        <meta name="description" content="04 Bonus Track by Maik Thomas en ClipDealer - M&uacute;sica sin derechos de autor y ruidos libres de derechos: this track is a part from the original soundtrack from the Docu Film BERGWACHT Die Retter. you will find the film on http://www.novalapse.com/bergwacht-die-retter" />
+        <meta name="keywords" content="04 Bonus Track by Maik Thomas, m&uacute;sica, ruidos, sonidos, efectos de sonido" />
+        <meta name="google-site-verification" content="D6lO-hDnA_BPMwLeTc3Rjy_qmBCmBHt4GAxntZF_Yzc" />        
+        <meta name="publisher" content="Clipdealer GmbH" />
+        <meta http-equiv="Content-language" content="de" />
+        <meta name="author" content="Clipdealer GmbH" />
+        <meta name="copyright" content="Clipdealer GmbH" />
+        <meta name="robots" content="index,follow" />
+        <meta name="revisit-after" content="7 days" />
+        <meta name="audience" content="all" />
+        <meta name="page-topic" content="Footage" />
+        <meta name="page-type" content="Footage" />
+        <meta http-equiv="content-type" content="text/html; charset=iso-8859-15" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-e7ba2a8f79a650a7e8e",applicationID:"46671555"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+        <link rel="canonical" href="https://es.clipdealer.com/audio/media/2290642" />        <link rel="shortcut icon" href="/resources/icons/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="/styles/5fa79afe4890cdd7129724903e179754.css?1604659840" type="text/css" />
+                                                        <link href="https://de.clipdealer.com/audio/media/2290642" rel="alternate" hreflang="de" />
+        <link href="https://en.clipdealer.com/audio/media/2290642" rel="alternate" hreflang="en-gb" />
+        <link href="https://us.clipdealer.com/audio/media/2290642" rel="alternate" hreflang="en-us" />
+        <link href="https://eu.clipdealer.com/audio/media/2290642" rel="alternate" hreflang="en-eu" />
+        <link href="https://fr.clipdealer.com/audio/media/2290642" rel="alternate" hreflang="fr" />
+        <link href="https://es.clipdealer.com/audio/media/2290642" rel="alternate" hreflang="es" />
+        <link href="https://mx.clipdealer.com/audio/media/2290642" rel="alternate" hreflang="es-mx" />
+        <link href="https://eu.clipdealer.com/audio/media/2290642" rel="alternate" hreflang="x-default" />
+        
+        <script type="text/javascript" src="/libsjs/906b5cc9337cc52f8b7c962a512d2ea4.js?1604659840"></script>
+<script type="text/javascript">
+            function faq_show(url) {
+                window.open(url, 'clipdealer_faq', 'toolbar=1,location=1,status=1,menubar=1,resizable=1,width=1000,height=800')
+            }
+        </script>
+                <script type="text/javascript" src="/libsjs/922f18721b67f2b6a55694987e5d828a.js?1606577500"></script>
+        <style type="text/css">
+        @import url("/styles/17d0ee01d35e1e79490aadfe57682d8a.css?1606577500");
+        </style>    </head>
+    <body>
+        <script type="text/javascript">
+        
+lima.rpc.getSimilars = function(media_id, offset, limit, type_id, phrase, state, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getSimilars":{"media_id":{"method":"lima_validate_int","options":[],"required":"-","invalid":"-"},"offset":{"method":"lima_validate_int","options":[],"invalid":"_"},"limit":{"method":"lima_validate_int","options":[],"invalid":"_"},"type_id":{"method":"lima_validate_int","options":[],"required":"-","invalid":"-"},"phrase":{"method":"lima_validate_print","options":[],"invalid":"-"},"state":{"method":"lima_validate_raw","options":[],"invalid":"-"}}},"regexp":{"lima_validate_int":{"pattern":"^(\\+|-)?[0-9]+$","modifier":""},"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""},"lima_validate_raw":{"pattern":"^[^\\f]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getSimilars", "media_id": media_id, "offset": offset, "limit": limit, "type_id": type_id, "phrase": phrase, "state": state});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.getSimilarsByFile = function(data, state, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getSimilarsByFile":{"data":{"method":"lima_validate_print","options":[],"invalid":"_"},"state":{"method":"lima_validate_raw","options":[],"invalid":"-"}}},"regexp":{"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""},"lima_validate_raw":{"pattern":"^[^\\f]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getSimilarsByFile", "data": data, "state": state});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.getSimilarsByWords = function(api_id, media_id, words, offset, limit, type_id, phrase, state, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getSimilarsByWords":{"api_id":{"method":"lima_validate_alpha","options":[],"invalid":"-"},"media_id":{"method":"lima_validate_int","options":[],"invalid":"-"},"words":{"method":"lima_validate_print","options":[],"required":"-","invalid":"-"},"offset":{"method":"lima_validate_int","options":[],"invalid":"_"},"limit":{"method":"lima_validate_int","options":[],"invalid":"_"},"type_id":{"method":"lima_validate_int","options":[],"required":"-","invalid":"-"},"phrase":{"method":"lima_validate_print","options":[],"invalid":"-"},"state":{"method":"lima_validate_raw","options":[],"invalid":"-"}}},"regexp":{"lima_validate_alpha":{"pattern":"^[a-zA-Z]+$","modifier":""},"lima_validate_int":{"pattern":"^(\\+|-)?[0-9]+$","modifier":""},"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""},"lima_validate_raw":{"pattern":"^[^\\f]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getSimilarsByWords", "api_id": api_id, "media_id": media_id, "words": words, "offset": offset, "limit": limit, "type_id": type_id, "phrase": phrase, "state": state});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.getDetailsOfTop4 = function(media_id, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getDetailsOfTop4":{"media_id":{"method":"lima_validate_print","options":[],"required":"-","invalid":"-"}}},"regexp":{"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getDetailsOfTop4", "media_id": media_id});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.getAllReleasesOfMember = function(release_type, media_id, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getAllReleasesOfMember":{"release_type":{"method":"lima_validate_print","options":[],"required":"-","invalid":"-"},"media_id":{"method":"lima_validate_print","options":[],"required":"_","invalid":"_"}}},"regexp":{"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getAllReleasesOfMember", "release_type": release_type, "media_id": media_id});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.setReleaseToMedia = function(release_ids, media_id, releaseType, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_setReleaseToMedia":{"release_ids":{"method":"lima_validate_digit","options":[],"required":"-","invalid":"-"},"media_id":{"method":"lima_validate_int","options":[],"required":"_","invalid":"_"},"releaseType":{"method":"lima_validate_print","options":[],"required":"_","invalid":"_"}}},"regexp":{"lima_validate_digit":{"pattern":"^[0-9]+$","modifier":""},"lima_validate_int":{"pattern":"^(\\+|-)?[0-9]+$","modifier":""},"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "setReleaseToMedia", "release_ids": release_ids, "media_id": media_id, "releaseType": releaseType});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.getMediasOfRelease = function(release_id, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getMediasOfRelease":{"release_id":{"method":"lima_validate_print","options":[],"required":"-","invalid":"-"}}},"regexp":{"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getMediasOfRelease", "release_id": release_id});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.getVariantID = function(media_id, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getVariantID":{"media_id":{"method":"lima_validate_print","options":[],"required":"-","invalid":"-"}}},"regexp":{"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getVariantID", "media_id": media_id});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.getBoughtMediasByUser = function(media_id, param, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getBoughtMediasByUser":{"media_id":{"method":"lima_validate_print","options":[],"required":"-","invalid":"-"},"param":{"method":"lima_validate_print","options":[],"required":"_","invalid":"_"}}},"regexp":{"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getBoughtMediasByUser", "media_id": media_id, "param": param});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.getVariants = function(id, api_id, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getVariants":{"id":{"method":"lima_validate_digit","options":[],"required":"","invalid":""},"api_id":{"method":"lima_validate_bool","options":[],"required":"","invalid":""}}},"regexp":{"lima_validate_digit":{"pattern":"^[0-9]+$","modifier":""},"lima_validate_bool":{"pattern":"^(-|\\+)?(0|1)$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getVariants", "id": id, "api_id": api_id});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.changeVariant = function(media_id, api_id, old_variant_id, new_variant_id, state, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_changeVariant":{"media_id":{"method":"lima_validate_digit","options":[],"required":"","invalid":""},"api_id":{"method":"lima_validate_digit","options":[],"required":"","invalid":""},"old_variant_id":{"method":"lima_validate_digit","options":[],"required":"","invalid":""},"new_variant_id":{"method":"lima_validate_digit","options":[],"required":"","invalid":""},"state":{"method":"lima_validate_raw","options":[],"invalid":"-"}}},"regexp":{"lima_validate_digit":{"pattern":"^[0-9]+$","modifier":""},"lima_validate_raw":{"pattern":"^[^\\f]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "changeVariant", "media_id": media_id, "api_id": api_id, "old_variant_id": old_variant_id, "new_variant_id": new_variant_id, "state": state});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.getSuggestion = function(key, lc, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getSuggestion":{"key":{"method":"lima_validate_print","options":[],"required":"","invalid":""},"lc":{"method":"lima_validate_print","options":[],"required":"","invalid":""}}},"regexp":{"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getSuggestion", "key": key, "lc": lc});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+        
+        function search_about_searchcriteria() {
+            if (ltk.dom.one('#searchcriteria_fields')) {
+                ltk.dom.get('input[type=hidden]', ltk.dom.one('#searchcriteria_fields')).forEach(function(node) {
+                    if(node.node.name == 'q') {
+                        node.node.value = ltk.dom.one('[name=q]', ltk.dom.one('#searchform')).node.value;
+                    } else if (node.node.name == 'tid') {
+                        node.node.value = ltk.dom.one('[name=tid]', ltk.dom.one('#searchform')).node.value;
+                    }
+                });
+
+                ltk.dom.one('#searchcriteria_fields_page').node.value = 1;
+                ltk.dom.one('#searchcriteria_fields').node.submit();
+
+                return false;
+            } else {
+                return true;
+            }
+        }
+    </script>
+
+        <!--<div id="globalcontainer"> -->
+                    <div class="wrapper" style="margin-top: 10px;">
+                <div id="header">
+                    <div id="headerlogo">
+                        <a href="/index.php" onfocus="blur();"><img src="/resources/images/logo.gif" height="70" border="0" alt="Comprar y vender secuencias de v&iacute;deo libres de derechos" /></a>
+                        <img src="/resources/images/hotline_es.gif" style="margin-left: -35px;" height="70" border="0" alt="L&iacute;nea de asistencia de ClipDealer: +49 (0)89 21909120" />
+
+                                            <script type="text/javascript" src="/libsjs/752d34d759f818fa7557fc8047e4f6d6.js?1604659840"></script>
+<script type="text/javascript">
+                        ltk.dom.ready(function() {
+                            clipdealer.suggestions.init('es');
+                        });
+                        </script>
+                        <form action="/" method="GET" id="searchform" onsubmit="return search_about_searchcriteria();">
+                            <input type="hidden" name="ACTION" value="search" />
+                                                    <div class="globalsearch">
+                                <div class="search-field">
+                                    <input type="search" value="" name="q" class="searchform" autocomplete="off" placeholder="Suchbegriff oder Media ID" />
+                                </div><div class="type-select">
+                                    <select name="tid">
+                                        <option value="3">Foto</option>
+                                        <option value="1">V&iacute;deo</option>
+                                        <option value="2" selected="selected">Audio</option>
+                                        <option value="4">Vectores</option>
+                                    </select>
+                                </div><input type="submit" value="Buscar" />
+                            </div>
+                            <div id="suggestions-box">
+                                <ul class="suggestions-list"></ul>
+                            </div>
+                        </form>
+                                        </div>
+                                    <div id="login">
+                        <form action="/index.php" method="post">
+                            <input type="hidden" name="state" value="MWQwY2FlNDMzNDRkMjliZTJjYzc1ZDc4OWU5N2YzNTYyYTQ3ZmMzMDVlMDA2N2NiZDIwMTJhYTRmZTE5ZjA4NHicRY5RDoMgEEQ9yx7ABWJNXQ7RI5CtEEuDlQh-mMa7F7WJv_Myb-ZBUhAEP7JJmbMDkvRNJFuC6kory5lBMzU7vBOMzno23oL2pFQn2kbpdKhOktfooCQ3Al6sn-BPrcvsg1nmcNCCXznHRIjPxdvwqfvgo3Uc3Fz304hCKCx6LH7EGHh1M8r6HYe93pXjnLKJPBxjShFcfcMxmnMvgd62H6suSzI" />                            <input type="hidden" name="ACTION" value="login" />
+                            <div id="loginuser">
+                                <label for="login_username"><span class="login">Username:</span></label> <br/>
+                                <input id="login_username" name="username" type="text" class="loginfield" />
+                            </div>
+                            <div id="loginpasswd">
+                                <label for="login_password"><span class="login">Password:</span></label> <br />
+                                <input id="login_password" name="password" type="password" class="loginfield" />
+                            </div>
+                            <div id="loginbutton">
+                            <!--<input type="checkbox" name="cookieneverexp" value="1" /><span class="login">LogIn speichern</span>-->
+                            <input type="image" name="login_button" src="/resources/buttons/anmelden_es.gif" />
+                            </div>
+                        </form>
+                        <ul id="loginnav">
+                            <li><span class="login"><a href="/index.php?ACTION=lostpwd">Contrase&ntilde;a olvidada</a></span></li>
+                            <li><span class="login"><a href="/index.php?ACTION=registration">Registro gratuito</a></span></li>
+                        </ul>
+                    </div>
+                                                </div>
+            </div>
+            <br clear="all"/>
+            <div class="wrapper navbar">
+                <div id="navpanel">
+                    <div id="navbar">
+                        <div class="first">
+                            <div style="float:left; width: 70px; border: 0px">
+                                <a style="color: #79acd9" href="/photo/">Foto</a>
+                            </div>
+                            <div style="float:left; width: 70px; border: 0px">
+                                <a style="color: #79acd9" href="/video/">V&iacute;deo</a>
+                            </div>
+                            <div style="float:left; width: 70px; border: 0px">
+                                <a style="color: #FFF" href="/audio/">Audio</a>
+                            </div>
+                            <div style="float:left; width: 85px; border: 0px">
+                                <a style="color: #79acd9" href="/vector/">Vectores</a>
+                            </div>
+                            <div class="trenner"></div>
+                            <div class="profile">
+                                <ul class="dropdown">
+                                    <li>
+                                                                                                                <a class="profile_button_inactive" href="javascript://">Mi perfil</a>
+                                                                        </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="basket" onclick="document.location.href='/index.php?ACTION=basket'">
+                            <p style="margin-left:40px; color: #FFF">Cesta de la compra<br/>( <span id="nav-basket-summary">0</span> )</p>
+                        </div>
+                        <div class="lightbox" onclick="document.location.href='/index.php?ACTION=lightbox&amp;lid=-1'">
+                            <p style="margin-left:10px; color:#FFF">Lightboxes<br/>( 0 )</p>
+                        </div>
+                        <div class="help">
+                            <a href="/static/faq">Ayuda r&aacute;pida</a>
+                        </div>
+                        <div class="locale">
+                            <ul class="dropdown">
+                                <li>
+                                    <a href="javascript://" class="button_es">es</a>
+                                    <ul>
+                                        <li><a href="https://de.clipdealer.com/audio/media/2290642" class="button_de">de</a></li>
+                                        <li><a href="https://en.clipdealer.com/audio/media/2290642" class="button_en">en</a></li>
+                                        <li><a href="https://us.clipdealer.com/audio/media/2290642" class="button_us">us</a></li>
+                                        <li><a href="https://eu.clipdealer.com/audio/media/2290642" class="button_eu">eu</a></li>
+                                        <li><a href="https://fr.clipdealer.com/audio/media/2290642" class="button_fr">fr</a></li>
+                                        <li><a href="https://es.clipdealer.com/audio/media/2290642" class="button_es">es</a></li>
+                                        <li><a href="https://mx.clipdealer.com/audio/media/2290642" class="button_mx">mx</a></li>
+                                    </ul>
+                                </li>
+                            </ul>                            
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+                    <div class="wrapper" style="margin-top: 20px; ">
+
+        <div id="content" style="border-left: 0;">
+                        <div class="box errors" style="display: none;">
+        <h2>No se ha producido ning&uacute;n error</h2>
+        <ul id="lima_errorlist">
+            </ul>
+    </div>
+                        <div class="box messages" style="display: none;">
+        <h2>&iexcl;Aviso!</h2>
+        <ul id="lima_messagelist">
+            </ul>
+    </div>
+                    <script type="text/javascript" src="/libsjs/5d66e485a1d49418e61bc2b4d24f7b2a.js?1599640163"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+  {"parsetags" : 'explicit', "lang" : "es_ES"}
+</script>
+
+<script type="text/javascript">
+clipdealer.detailspage.setMediaId(2290642);
+  
+function tabs(id) {
+    this.tabObj = document.getElementById(id);
+    this.active = 0;
+
+    // attach events to tabs
+    this.tabs = this.tabObj.getElementsByTagName('li');
+    
+    var me = this;
+    
+    function _newClosure(param, cb) {
+        return function() {
+            cb(param);
+        }
+    }
+    
+    for (var i = 0, len = this.tabs.length; i < len; ++i) {
+        if (this.tabs[i].className.indexOf('activeTab') >= 0) {
+            this.active = i;
+        }
+        
+        this.tabs[i].onclick = _newClosure(i, function(no) {
+            me.activateTab(no)
+        });
+    }
+
+    // remember panes
+    var tmp = this.tabObj.getElementsByTagName('div');
+    this.panes = [];
+     
+    for (i = 0, len = tmp.length; i < len; ++i) {
+        if (tmp[i].className.indexOf('tabContent') >= 0) {
+            this.panes[this.panes.length] = tmp[i];
+        }
+    }
+}
+tabs.prototype.activateTab = function(no) {
+    if (no == this.active) return;
+    
+    this.tabs[this.active].className = '';
+    this.panes[this.active].className = 'tabContent';
+    
+    this.active = no;
+    this.tabs[this.active].className = 'activeTab';
+    this.panes[this.active].className += ' activeTab';
+}
+
+lima.addLoadEvent(function() {
+    // setup player and tabs
+    clipdealer.prevplayer.setup('https://preview.clipdealer.com/', 'https://buidln.clipdealer.com/');
+
+    new tabs('box1');
+
+    // setup voting tool
+    var voting = new lima.voting('voting_stars', 'voting_indicator', '#7badd5', '#a9ca5f');
+    voting.setValue(10);
+    voting.deactivate();
+    
+    });// -- end lima.addLoadEvent --
+
+    
+lima.rpc.getSimilars = function(media_id, offset, limit, type_id, phrase, state, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getSimilars":{"media_id":{"method":"lima_validate_int","options":[],"required":"-","invalid":"-"},"offset":{"method":"lima_validate_int","options":[],"invalid":"_"},"limit":{"method":"lima_validate_int","options":[],"invalid":"_"},"type_id":{"method":"lima_validate_int","options":[],"required":"-","invalid":"-"},"phrase":{"method":"lima_validate_print","options":[],"invalid":"-"},"state":{"method":"lima_validate_raw","options":[],"invalid":"-"}}},"regexp":{"lima_validate_int":{"pattern":"^(\\+|-)?[0-9]+$","modifier":""},"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""},"lima_validate_raw":{"pattern":"^[^\\f]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getSimilars", "media_id": media_id, "offset": offset, "limit": limit, "type_id": type_id, "phrase": phrase, "state": state});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.getSimilarsByFile = function(data, state, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getSimilarsByFile":{"data":{"method":"lima_validate_print","options":[],"invalid":"_"},"state":{"method":"lima_validate_raw","options":[],"invalid":"-"}}},"regexp":{"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""},"lima_validate_raw":{"pattern":"^[^\\f]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getSimilarsByFile", "data": data, "state": state});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.getSimilarsByWords = function(api_id, media_id, words, offset, limit, type_id, phrase, state, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getSimilarsByWords":{"api_id":{"method":"lima_validate_alpha","options":[],"invalid":"-"},"media_id":{"method":"lima_validate_int","options":[],"invalid":"-"},"words":{"method":"lima_validate_print","options":[],"required":"-","invalid":"-"},"offset":{"method":"lima_validate_int","options":[],"invalid":"_"},"limit":{"method":"lima_validate_int","options":[],"invalid":"_"},"type_id":{"method":"lima_validate_int","options":[],"required":"-","invalid":"-"},"phrase":{"method":"lima_validate_print","options":[],"invalid":"-"},"state":{"method":"lima_validate_raw","options":[],"invalid":"-"}}},"regexp":{"lima_validate_alpha":{"pattern":"^[a-zA-Z]+$","modifier":""},"lima_validate_int":{"pattern":"^(\\+|-)?[0-9]+$","modifier":""},"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""},"lima_validate_raw":{"pattern":"^[^\\f]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getSimilarsByWords", "api_id": api_id, "media_id": media_id, "words": words, "offset": offset, "limit": limit, "type_id": type_id, "phrase": phrase, "state": state});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.getDetailsOfTop4 = function(media_id, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getDetailsOfTop4":{"media_id":{"method":"lima_validate_print","options":[],"required":"-","invalid":"-"}}},"regexp":{"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getDetailsOfTop4", "media_id": media_id});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.getAllReleasesOfMember = function(release_type, media_id, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getAllReleasesOfMember":{"release_type":{"method":"lima_validate_print","options":[],"required":"-","invalid":"-"},"media_id":{"method":"lima_validate_print","options":[],"required":"_","invalid":"_"}}},"regexp":{"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getAllReleasesOfMember", "release_type": release_type, "media_id": media_id});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.setReleaseToMedia = function(release_ids, media_id, releaseType, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_setReleaseToMedia":{"release_ids":{"method":"lima_validate_digit","options":[],"required":"-","invalid":"-"},"media_id":{"method":"lima_validate_int","options":[],"required":"_","invalid":"_"},"releaseType":{"method":"lima_validate_print","options":[],"required":"_","invalid":"_"}}},"regexp":{"lima_validate_digit":{"pattern":"^[0-9]+$","modifier":""},"lima_validate_int":{"pattern":"^(\\+|-)?[0-9]+$","modifier":""},"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "setReleaseToMedia", "release_ids": release_ids, "media_id": media_id, "releaseType": releaseType});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.getMediasOfRelease = function(release_id, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getMediasOfRelease":{"release_id":{"method":"lima_validate_print","options":[],"required":"-","invalid":"-"}}},"regexp":{"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getMediasOfRelease", "release_id": release_id});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.getVariantID = function(media_id, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getVariantID":{"media_id":{"method":"lima_validate_print","options":[],"required":"-","invalid":"-"}}},"regexp":{"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getVariantID", "media_id": media_id});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.getBoughtMediasByUser = function(media_id, param, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getBoughtMediasByUser":{"media_id":{"method":"lima_validate_print","options":[],"required":"-","invalid":"-"},"param":{"method":"lima_validate_print","options":[],"required":"_","invalid":"_"}}},"regexp":{"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getBoughtMediasByUser", "media_id": media_id, "param": param});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.getVariants = function(id, api_id, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getVariants":{"id":{"method":"lima_validate_digit","options":[],"required":"","invalid":""},"api_id":{"method":"lima_validate_bool","options":[],"required":"","invalid":""}}},"regexp":{"lima_validate_digit":{"pattern":"^[0-9]+$","modifier":""},"lima_validate_bool":{"pattern":"^(-|\\+)?(0|1)$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getVariants", "id": id, "api_id": api_id});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.changeVariant = function(media_id, api_id, old_variant_id, new_variant_id, state, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_changeVariant":{"media_id":{"method":"lima_validate_digit","options":[],"required":"","invalid":""},"api_id":{"method":"lima_validate_digit","options":[],"required":"","invalid":""},"old_variant_id":{"method":"lima_validate_digit","options":[],"required":"","invalid":""},"new_variant_id":{"method":"lima_validate_digit","options":[],"required":"","invalid":""},"state":{"method":"lima_validate_raw","options":[],"invalid":"-"}}},"regexp":{"lima_validate_digit":{"pattern":"^[0-9]+$","modifier":""},"lima_validate_raw":{"pattern":"^[^\\f]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "changeVariant", "media_id": media_id, "api_id": api_id, "old_variant_id": old_variant_id, "new_variant_id": new_variant_id, "state": state});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+lima.rpc.getSuggestion = function(key, lc, _cb) {
+    var ruleset = '{"rulesets":{"rpcsrv_getSuggestion":{"key":{"method":"lima_validate_print","options":[],"required":"","invalid":""},"lc":{"method":"lima_validate_print","options":[],"required":"","invalid":""}}},"regexp":{"lima_validate_print":{"pattern":"^[^\\f\\n\\r\\t]+$","modifier":""}}}';
+
+    var rpc = new lima.rpc('https://es.clipdealer.com');
+    rpc.setOption('data', {"ACTION": "service", "service": "getSuggestion", "key": key, "lc": lc});
+
+    if (typeof _cb != 'undefined') {
+        if (typeof _cb.onsuccess != 'undefined') {
+            rpc.onSuccess = function(data) {
+                _cb.onsuccess(data);
+            }
+        }
+        if (typeof _cb.onFailure != 'undefined') {
+            rpc.onFailure = function(http, error) {
+                _cb.onFailure(http, error);
+            }
+        }
+        if (typeof _cb.whileLoading) {
+            rpc.whileLoading = function() {
+                _cb.whileLoading();
+            }
+        }
+    }
+
+    rpc.sendRequest();
+}
+
+</script>
+            <h1>
+                                 04 Bonus Track by Maik Thomas                                                                    <img src="/resources/icons/sm_button.jpg" style="vertical-align: top;" onmouseover="ltk.tooltip.show({'label': {'#html': 'Social Media License'} }, this, event)"/>
+                            </h1>
+            <script type="text/javascript" src="/libsjs/21d1e8202945469fbf13e8bdfe9014d0.js?1599640163"></script>
+<script type="text/javascript">
+    ltk.dom.ready(function() {
+        ltk.l10n.setLocale("es_ES");
+        ltk.l10n.setCurrency("EUR");
+
+        var variants = [{"variant_id":16,"variant_name":"MP3 Musik","variant_description":"","variant_price":"13.90","variant_tag":"MP3_MUSIC","variant_class":4,"variant_premium":0,"variant_subscription":0,"variant_credits":0,"variant_price_brutto":"14.60","media_id":2290642,"variant_size":0,"variant_info":"","group_name":"","group_tag":"mp3","file_size":5442244,"socialmedialicense":"1"},{"variant_id":18,"variant_name":"Original Lossless","variant_description":"","variant_price":"19.90","variant_tag":"ORIGINAL_MUSIC","variant_class":4,"variant_premium":0,"variant_subscription":0,"variant_credits":0,"variant_price_brutto":"20.90","media_id":2290642,"variant_size":0,"variant_info":"","group_name":"","group_tag":"mp3","file_size":26118946,"socialmedialicense":"1"},{"variant_id":108,"variant_name":"Original Lossless","variant_description":"","variant_price":"59.90","variant_tag":"MERCH_ORIGINAL_MUSIC","variant_class":4,"variant_premium":0,"variant_subscription":0,"variant_credits":0,"variant_price_brutto":"62.90","media_id":2290642,"variant_size":0,"variant_info":"","group_name":"Merchandising Lizenz","group_tag":"original","file_size":26118946,"socialmedialicense":"1"}];
+
+        var vat = parseInt("5", 10) || 0;
+        var socialLicensePrice = parseFloat("1.5");
+        var socialLicenseBtn = ltk.dom.one('.socialLicenseBtn');
+        var exchange = parseFloat(1) || 1;
+
+        if (socialLicenseBtn) {
+            (function() {
+                socialLicenseBtn.node.checked = 'checked';
+
+                variants.forEach(function(variant) {
+                    if(vpn = ltk.dom.one('.variant_price_netto_'+variant.variant_id)) {
+                        var sociallicense = ltk.dom.one('.sociallicense_'+variant.variant_id);
+                        var currentPrice = parseFloat(variant.variant_price);
+                        vpn.node.innerHTML = ltk.l10n.monf((currentPrice+socialLicensePrice) * exchange);
+                        sociallicense.node.value = 1;
+                    }
+
+                    if(vpb = ltk.dom.one('.variant_price_brutto_'+variant.variant_id))
+                        vpb.node.innerHTML = ltk.l10n.monf( ((currentPrice+socialLicensePrice) + ((currentPrice+socialLicensePrice) * (vat / 100))) * exchange);
+                });
+            })();
+
+            ltk.evt.addEvent(socialLicenseBtn, 'change', function() {
+                if(socialLicenseBtn.node.checked) {
+                    variants.forEach(function(variant) {
+                        if(vpn = ltk.dom.one('.variant_price_netto_'+variant.variant_id)) {
+                            var sociallicense = ltk.dom.one('.sociallicense_'+variant.variant_id);
+                            var currentPrice = parseFloat(variant.variant_price);
+                            vpn.node.innerHTML = ltk.l10n.monf((currentPrice+socialLicensePrice) * exchange);
+                            sociallicense.node.value = 1;
+                        }
+
+                        if(vpb = ltk.dom.one('.variant_price_brutto_'+variant.variant_id))
+                            vpb.node.innerHTML = ltk.l10n.monf( ((currentPrice+socialLicensePrice) + ((currentPrice+socialLicensePrice) * (vat / 100))) * exchange);
+                    });
+                } else {
+                    variants.forEach(function(variant) {
+                        if(vpn = ltk.dom.one('.variant_price_netto_'+variant.variant_id)) {
+                            var sociallicense = ltk.dom.one('.sociallicense_'+variant.variant_id);
+                            var currentPrice = parseFloat(variant.variant_price);
+                            vpn.node.innerHTML = ltk.l10n.monf(currentPrice * exchange);
+                            sociallicense.node.value = 0;
+                        }
+
+                        if(vpb = ltk.dom.one('.variant_price_brutto_'+variant.variant_id))
+                            vpb.node.innerHTML = ltk.l10n.monf( (currentPrice + (currentPrice * (vat / 100))) * exchange);
+                    });
+                }
+            });
+        }
+
+        // subscription
+        var socialLicenseCredits = parseInt("1");
+        var socialLicenseAboBtn = ltk.dom.one('.socialLicenseAboBtn');
+        var variant_credit = ltk.dom.one('.variant_credit');
+
+        if (socialLicenseAboBtn) {
+            (function() {
+                socialLicenseAboBtn.node.checked = 'checked';
+
+                variants.forEach(function(variant) {
+                    var sociallicense = ltk.dom.one('.sociallicense_'+variant.variant_id);
+
+                    if(variant.group_tag == 'subscription') {
+                        variant_credit.node.innerHTML = (parseInt(variant_credit.node.innerHTML)+socialLicenseCredits);
+                        sociallicense.node.value = 1;
+                    }
+                });
+            })();
+
+            ltk.evt.addEvent(socialLicenseAboBtn, 'change', function() {
+                if(socialLicenseAboBtn.node.checked) {
+                    variants.forEach(function(variant) {
+                        var sociallicense = ltk.dom.one('.sociallicense_'+variant.variant_id);
+
+                        if(variant.group_tag == 'subscription') {
+                            variant_credit.node.innerHTML = (parseInt(variant_credit.node.innerHTML)+socialLicenseCredits);
+                            sociallicense.node.value = 1;
+                        }
+                    });
+                } else {
+                    variants.forEach(function(variant) {
+                        var sociallicense = ltk.dom.one('.sociallicense_'+variant.variant_id);
+
+                        if(variant.group_tag == 'subscription') {
+                            variant_credit.node.innerHTML = variant.variant_credits;
+                            sociallicense.node.value = 0;
+                        }
+                    });
+                }
+            });
+        }
+    });
+</script>
+
+<script type="text/javascript" src="/resources/player/jwplayer.js"></script>
+
+            <div id="player">
+                <div style="float:left;" id="default_player">
+                    <div id="play"></div>
+
+                    <script type="text/javascript">
+                        jwplayer('play').setup({
+                            file: 'https://preview.clipdealer.com/2290642.mp3',
+                            image: 'https://buidln.clipdealer.com/002/290/642//player/1--2290642-04%20Bonus%20Track%20by%20Maik%20Thomas.jpg',
+                            autostart: false,
+                            repeat: false,
+                            controls: true,
+                            height: 226,
+                            width: 402
+                        });
+                    </script>
+
+                    <p style="text-align: left;">
+                        <strong>ID de contenidos digitales: 2290642</strong><br />
+                        <strong>Derecho de uso:</strong> Uso comercial y editorial<br />
+                        <br />
+                        04 Bonus Track by Maik Thomas                    </p>
+                </div>
+                <br clear="all" />
+                <div class="box" style="width: 392px; padding: 5px; border: 1px solid #eee;
+background-color: #fefefe;">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td><strong>Vista previa</strong></td>
+                            <td align="right">&nbsp;</td>
+                            <td align="right">&nbsp;</td>
+                            <td align="right">&nbsp;</td>
+                            <td class="bold" align="right">
+                                <form action="https://es.clipdealer.com/audio/media/2290642" method="post" style="margin: 0; padding: 0;">
+                                    <input type="hidden" name="state" value="MWQwY2FlNDMzNDRkMjliZTJjYzc1ZDc4OWU5N2YzNTYyYTQ3ZmMzMDVlMDA2N2NiZDIwMTJhYTRmZTE5ZjA4NHicRY5RDoMgEEQ9yx7ABWJNXQ7RI5CtEEuDlQh-mMa7F7WJv_Myb-ZBUhAEP7JJmbMDkvRNJFuC6kory5lBMzU7vBOMzno23oL2pFQn2kbpdKhOktfooCQ3Al6sn-BPrcvsg1nmcNCCXznHRIjPxdvwqfvgo3Uc3Fz304hCKCx6LH7EGHh1M8r6HYe93pXjnLKJPBxjShFcfcMxmnMvgd62H6suSzI" />                                    <input type="hidden" name="media_id" value="2290642" />
+                                    <input type="submit" name="ACTION_downloadpreview" value="Descargar" class="warenkorb_button button_dl_preview" />
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                        </div>
+              
+            <div id="box1" class="box boxClipInfos" style="width: 561px;">
+                <div class="headline">
+                    <ul>
+                        <li class="activeTab"><p>Varianten</p></li>
+                        <li><p>Informaci&oacute;n de contenidos digitales</p></li>
+                        <li><p>Gama</p></li>
+                    </ul>
+                </div>
+                <div class="clipinfos">
+                    <div class="tabContent activeTab">
+                        <table class="variants_table" cellspacing="0" cellpadding="3" border="0" width="100%">
+                            <tbody>
+                                                            <tr>
+                                    <td colspan="5" class="detail_priceinfo">
+                                        <div class="box">
+                                            ¡Descargue esta clip audio con nuestra cuenta de cliente a partir de <span class="price">6,95 &euro;</span>!                                            <div class="link"><a href="/index.php?ACTION=prepaid">... ver m&aacute;s</a></div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                                        </tbody>
+                                                                                                                                </tbody><tbody>
+                                                                <tr>
+                                    <td colspan="5"><img src="/resources/icons/t20x20.gif" width="1" height="1" /></td>
+                                </tr>
+                            </tbody><tbody>
+                                <tr class="row1">
+                                    <td colspan="5" class="bold" style="border-top: 1px solid #aaa; border-bottom: 1px solid #fff;">
+                                        Variantes:                                     </td>
+                                </tr>
+
+                                                                                                                                                                        <tr>
+                                        <td colspan="5" style="background-color: #e5efc6">
+                                            <div style="float:left">
+                                                <input class="socialLicenseBtn" type="checkbox" />
+                                                <strong><a href="/socialmedialicense" taregt="_blank">Social Media License + 1,50 &euro;</a></strong>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                                                                                                                    
+                                                                                        <tr class="row1">
+                                    <td class="bold">Formato</td>
+                                    <td class="bold">C&oacute;dec</td>
+                                    <td align="right" class="bold">Neto</td>
+                                    <td align="right" class="bold">Bruto</td>
+                                    <td class="bold">Precio</td>
+                                </tr>
+                                                                                    <tr>
+                                    <td>MP3 Musik</td>
+                                    <td></td>
+                                                                                                    <td class="variant_price_netto_16" align="right">13,90 &euro;</td>
+                                    <td class="variant_price_brutto_16" align="right">14,60 &euro;</td>
+                                                                    <td align="right">
+                                        <form action="https://es.clipdealer.com/audio/media/2290642" method="post" style="margin: 0; padding: 0;">
+                                            <input type="hidden" name="state" value="MWQwY2FlNDMzNDRkMjliZTJjYzc1ZDc4OWU5N2YzNTYyYTQ3ZmMzMDVlMDA2N2NiZDIwMTJhYTRmZTE5ZjA4NHicRY5RDoMgEEQ9yx7ABWJNXQ7RI5CtEEuDlQh-mMa7F7WJv_Myb-ZBUhAEP7JJmbMDkvRNJFuC6kory5lBMzU7vBOMzno23oL2pFQn2kbpdKhOktfooCQ3Al6sn-BPrcvsg1nmcNCCXznHRIjPxdvwqfvgo3Uc3Fz304hCKCx6LH7EGHh1M8r6HYe93pXjnLKJPBxjShFcfcMxmnMvgd62H6suSzI" />                                            <input type="hidden" name="variant_id" value="16" />
+                                            <input type="hidden" name="sociallicense" value="0" class="sociallicense_16" />
+                                                                                                                                        <input type="hidden" name="subscription" value="0" />
+                                                <input type="submit" name="ACTION_addbasket" value="Compra ahora" class="warenkorb_button button_to_basket" />
+                                                                                    </form>
+                                    </td>
+                                </tr>
+                                                                                                        <tr class="row1">
+                                    <td>Original Lossless</td>
+                                    <td></td>
+                                                                                                    <td class="variant_price_netto_18" align="right">19,90 &euro;</td>
+                                    <td class="variant_price_brutto_18" align="right">20,90 &euro;</td>
+                                                                    <td align="right">
+                                        <form action="https://es.clipdealer.com/audio/media/2290642" method="post" style="margin: 0; padding: 0;">
+                                            <input type="hidden" name="state" value="MWQwY2FlNDMzNDRkMjliZTJjYzc1ZDc4OWU5N2YzNTYyYTQ3ZmMzMDVlMDA2N2NiZDIwMTJhYTRmZTE5ZjA4NHicRY5RDoMgEEQ9yx7ABWJNXQ7RI5CtEEuDlQh-mMa7F7WJv_Myb-ZBUhAEP7JJmbMDkvRNJFuC6kory5lBMzU7vBOMzno23oL2pFQn2kbpdKhOktfooCQ3Al6sn-BPrcvsg1nmcNCCXznHRIjPxdvwqfvgo3Uc3Fz304hCKCx6LH7EGHh1M8r6HYe93pXjnLKJPBxjShFcfcMxmnMvgd62H6suSzI" />                                            <input type="hidden" name="variant_id" value="18" />
+                                            <input type="hidden" name="sociallicense" value="0" class="sociallicense_18" />
+                                                                                                                                        <input type="hidden" name="subscription" value="0" />
+                                                <input type="submit" name="ACTION_addbasket" value="Compra ahora" class="warenkorb_button button_to_basket" />
+                                                                                    </form>
+                                    </td>
+                                </tr>
+                                                                                                    </tbody><tbody>
+                                                                <tr>
+                                    <td colspan="5"><img src="/resources/icons/t20x20.gif" width="1" height="1" /></td>
+                                </tr>
+                            </tbody><tbody>
+                                <tr class="row1">
+                                    <td colspan="5" class="bold" style="border-top: 1px solid #aaa; border-bottom: 1px solid #fff;">
+                                        Variantes: Merchandising Lizenz                                    </td>
+                                </tr>
+
+                                
+                                                                                        <tr class="row1">
+                                    <td class="bold">Formato</td>
+                                    <td class="bold">C&oacute;dec</td>
+                                    <td align="right" class="bold">Neto</td>
+                                    <td align="right" class="bold">Bruto</td>
+                                    <td class="bold">Precio</td>
+                                </tr>
+                                                                                    <tr>
+                                    <td>Original Lossless</td>
+                                    <td></td>
+                                                                                                    <td class="variant_price_netto_108" align="right">59,90 &euro;</td>
+                                    <td class="variant_price_brutto_108" align="right">62,90 &euro;</td>
+                                                                    <td align="right">
+                                        <form action="https://es.clipdealer.com/audio/media/2290642" method="post" style="margin: 0; padding: 0;">
+                                            <input type="hidden" name="state" value="MWQwY2FlNDMzNDRkMjliZTJjYzc1ZDc4OWU5N2YzNTYyYTQ3ZmMzMDVlMDA2N2NiZDIwMTJhYTRmZTE5ZjA4NHicRY5RDoMgEEQ9yx7ABWJNXQ7RI5CtEEuDlQh-mMa7F7WJv_Myb-ZBUhAEP7JJmbMDkvRNJFuC6kory5lBMzU7vBOMzno23oL2pFQn2kbpdKhOktfooCQ3Al6sn-BPrcvsg1nmcNCCXznHRIjPxdvwqfvgo3Uc3Fz304hCKCx6LH7EGHh1M8r6HYe93pXjnLKJPBxjShFcfcMxmnMvgd62H6suSzI" />                                            <input type="hidden" name="variant_id" value="108" />
+                                            <input type="hidden" name="sociallicense" value="0" class="sociallicense_108" />
+                                                                                                                                        <input type="hidden" name="subscription" value="0" />
+                                                <input type="submit" name="ACTION_addbasket" value="Compra ahora" class="warenkorb_button button_to_basket" />
+                                                                                    </form>
+                                    </td>
+                                </tr>
+                                                </tbody>
+                        </table>
+                    </div>
+            
+                    <div class="tabContent">
+                        <div class="item">
+                            <table border="0" cellpadding="0" width="100%">
+                                <tr>
+                                    <td width="100"><span class="bold">ID de contenidos digitales:</span></td>
+                                    <td width="240">2290642</td>
+                                </tr>
+                                <tr>
+                                    <td width="100"><span class="bold">A&ntilde;adido el:</span></td>
+                                    <td width="240">16/03/2013 H:46:51</td>
+                                </tr>
+                                <tr>
+                                    <td width="100"><span class="bold">Visitas:</span></td>
+                                    <td width="240">9532</td>
+                                </tr>
+                                                                <tr>
+                                    <td width="100"><span class="bold">Descargar</span></td>
+                                    <td width="240">3</td>
+                                </tr>
+                                                                <tr>
+                                    <td width="100">&nbsp;</td>
+                                    <td width="240">&nbsp;</td>
+                                </tr>
+                                                                <tr>
+                                    <td width="100" class="bold">Longitud:</td>
+                                    <td width="240">136.00 Segundos</td>
+                                </tr>
+                                                                                                <tr>
+                                    <td width="100" class="bold">Tasa de bits:</td>
+                                    <td width="240">1536 kbps</td>
+                                </tr>
+                                                                                                <tr>
+                                    <td width="100" class="bold">Tasa de muestreo:</td>
+                                    <td width="240">48 kHz</td>
+                                </tr>
+                                                                <tr>
+                                    <td width="100">&nbsp;</td>
+                                    <td width="240">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td width="100"><span class="bold">Categor&iacute;a:</span></td>
+                                    <td width="240"><a href="/audio/category/266">M&uacute;sica</a></td>
+                                </tr>
+                                <tr>
+                                    <td width="100" valign="top"><span class="bold">Descripci&oacute;n:</span></td>
+                                    <td width="240">this track is a part from the original soundtrack from the Docu Film BERGWACHT Die Retter. you will find the film on http://www.novalapse.com/bergwacht-die-retter</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="item">
+                            <h2>Licencia de uso</h2>
+                            <table border="0" cellpadding="0" width="100%">
+                                <tr>
+                                    <td width="100"><span class="bold">Derecho de uso:</span></td>
+                                    <td width="240">Uso comercial y editorial</td>
+                                </tr>
+                            </table>
+                        </div>
+                        
+                        
+                        <div class="item">
+                            <h2>Informaci&oacute;n de usuario</h2>
+                            <table border="0" cellpadding="0" width="100%">
+                                <tr>
+                                    <td width="100"><span class="bold">A&ntilde;adido por:</span></td>
+                                    <td width="240"><a href="/user/609">mouseonmars</a></td>
+                                </tr>
+                                <tr>
+                                    <td width="100"></td>
+                                    <td width="240"><a href="/audio/portfolio/609">M&aacute;s contenidos digitales de mouseonmars</a></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="item">
+                            <h2>Valoraci&oacute;n</h2>
+                            <table border="0" cellpadding="0" width="100%">
+                                <tr>
+                                    <td width="100" valign="top"><span class="bold">Valoraci&oacute;n:</span></td>
+                                    <td class="voting" width="240">
+                                        <div id="voting_container">
+                                            <div id="voting_indicator"></div>
+                                            <div id="voting_stars">
+                                                <div class="star"></div>
+                                                <div class="star"></div>
+                                                <div class="star"></div>
+                                                <div class="star"></div>
+                                                <div class="star"></div>
+                                                <div class="star"></div>
+                                                <div class="star"></div>
+                                                <div class="star"></div>
+                                                <div class="star"></div>
+                                                <div class="star"></div>
+                                            </div>
+                                        </div>
+                                        Valoraciones: <span id="voting_total">1</span> / Media: <span id="voting_avg">10</span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="item">
+                            <table border="0" cellpadding="0" width="100%">
+                                <tr>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="item">
+                            <h2>T&eacute;rminos de b&uacute;squeda</h2>
+                            <table border="0" cellpadding="0" width="100%">
+                                <tr>
+                                    <td width="100" valign="top"><span class="bold">Palabras clave:</span></td>
+                                    <td width="240" class="tagcloud">
+                                        <form action="/" method="GET">
+                                            <input type="hidden" name="ACTION" value="search" />
+                                            <input type="hidden" name="tid" value="2" />
+                                            <input type="hidden" id="keyword_search_q" name="q" value="" />
+                                            <div>
+                                                                                        <input type="checkbox" value="ambiente" onclick="clipdealer.detailspage.addKeywordSearch(this)" /><a href="/audio/search/ambiente">ambiente</a><br />
+                                                                                        <input type="checkbox" value="monta&ntilde;as" onclick="clipdealer.detailspage.addKeywordSearch(this)" /><a href="/audio/search/monta%26ntilde%3Bas">monta&ntilde;as</a><br />
+                                                                                        <input type="checkbox" value="&eacute;pico" onclick="clipdealer.detailspage.addKeywordSearch(this)" /><a href="/audio/search/%26eacute%3Bpico">&eacute;pico</a><br />
+                                                                                        <input type="checkbox" value="sublime" onclick="clipdealer.detailspage.addKeywordSearch(this)" /><a href="/audio/search/sublime">sublime</a><br />
+                                                                                        <input type="checkbox" value="m&uacute;sica de la pel&iacute;cula" onclick="clipdealer.detailspage.addKeywordSearch(this)" /><a href="/audio/search/m%26uacute%3Bsica%20de%20la%20pel%26iacute%3Bcula">m&uacute;sica de la pel&iacute;cula</a><br />
+                                                                                        <input type="checkbox" value="heroico" onclick="clipdealer.detailspage.addKeywordSearch(this)" /><a href="/audio/search/heroico">heroico</a><br />
+                                                                                        <input type="checkbox" value="monta&ntilde;as" onclick="clipdealer.detailspage.addKeywordSearch(this)" /><a href="/audio/search/monta%26ntilde%3Bas">monta&ntilde;as</a><br />
+                                                                                        <input type="checkbox" value="puntuaci&oacute;n" onclick="clipdealer.detailspage.addKeywordSearch(this)" /><a href="/audio/search/puntuaci%26oacute%3Bn">puntuaci&oacute;n</a><br />
+                                                                                        <input type="checkbox" value="liso" onclick="clipdealer.detailspage.addKeywordSearch(this)" /><a href="/audio/search/liso">liso</a><br />
+                                                                                        <input type="checkbox" value="" /><a href="/audio/">audio libres de derechos</a><br />
+                                            </div>
+                                            <input type="image" src="/resources/buttons/suchen_green_es.gif" />
+                                        </form>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                                            </div>
+                    <div class="tabContent">
+                                                                                        <a target="_blank" href="https://buidln.clipdealer.com/002/290/642//previews/1.jpg"><img src="/resources/images/shim.gif" class="thumbnail" style="background: url(https://buidln.clipdealer.com/002/290/642//thumbnails/1.jpg) no-repeat center;" alt="" /></a>
+                                                <a target="_blank" href="https://buidln.clipdealer.com/002/290/642//previews/2.jpg"><img src="/resources/images/shim.gif" class="thumbnail" style="background: url(https://buidln.clipdealer.com/002/290/642//thumbnails/2.jpg) no-repeat center; margin-right: 0;" alt="" /></a>
+                                                                    <br clear="both" />
+                    </div>
+                    <div class="tabContent">
+                        <p>
+                            Clips
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br clear="both" />    
+            <div style="width: 959px; border: 1px solid #e6e6e6; padding: 5px; margin-top:10px; margin-bottom: 10px;">
+                                                                <label>El ruido libres de derechos 04 Bonus Track by Maik Thomas con una duraci&oacute;n de 136.00 segundos. El ruido 04 Bonus Track by Maik Thomas es uno de los 23697 sonidos de la categor&iacute;a Musik y desde el 16/03/2013 H:46:51 forma parte del archivo de ClipDealer. 04 Bonus Track by Maik Thomas est&aacute; autorizado para Kommerzielle und redaktionelle Nutzung.</label>
+                                            </div>
+            
+            <script type="text/javascript" src="/libsjs/806da37f190b496b0cf6aaa041f06491.js?1599640174"></script>
+<div id="searchResultThumbContainer" class="containerRowGrid">
+    <h3 style="display: none;">
+                Clips de audio libres de derechos similares                
+    </h3>
+</div>
+
+<script type="text/javascript">
+var similars = new clipdealer.similars('.containerRowGrid', {
+    'is_loggedin': false,
+    'state': 'MWQwY2FlNDMzNDRkMjliZTJjYzc1ZDc4OWU5N2YzNTYyYTQ3ZmMzMDVlMDA2N2NiZDIwMTJhYTRmZTE5ZjA4NHicRY5RDoMgEEQ9yx7ABWJNXQ7RI5CtEEuDlQh-mMa7F7WJv_Myb-ZBUhAEP7JJmbMDkvRNJFuC6kory5lBMzU7vBOMzno23oL2pFQn2kbpdKhOktfooCQ3Al6sn-BPrcvsg1nmcNCCXznHRIjPxdvwqfvgo3Uc3Fz304hCKCx6LH7EGHh1M8r6HYe93pXjnLKJPBxjShFcfcMxmnMvgd62H6suSzI',
+    'preview_video_host': 'https://preview.clipdealer.com/',
+    'by_words': '04 Bonus Track by Maik Thomas',
+    'media_id': parseInt('2290642', 10) + parseInt('0', 10),
+    'api_id': null,
+    'media_id': 2290642,
+    'type_id': parseInt('2', 10),
+    'phrase': (window.name.substr(0, 2) == 'q:'
+                ? window.name.substr(2)
+                : '')
+});
+
+lima.addLoadEvent(function() {
+    similars.onload = (function() {
+        var init = false;
+        
+        return function() {
+            if (init) return;
+            
+            ltk.dom.one('h3', '#searchResultThumbContainer').setStyle('display', 'block');
+            
+            init = true;
+        }
+    })();
+    
+    similars.load();
+});
+</script>
+        </div>
+    </div>  
+                </div>
+
+                <div style="clear: both"></div>
+            </div>
+
+            <div class="wrapper footer">
+                <div id="footer">
+                    <ul style="width: 971px;">
+                        <li>
+                            <h2>
+                                Sobre ClipDealer                            </h2>
+                            <ul>
+                                <li><a href="/static/qualitaetsversprechen">Compromiso de calidad</a></li>
+    			                <li><a href="/static/presse">Prensa</a></li>
+                                <li><a href="/static/kontakt">Contacto</a></li>
+                                <li><a href="/static/impressum">Nota legal</a></li>
+                                <li><a href="/static/jobs">Empleo</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h2>
+                                Socio                            </h2>
+                            <ul>
+                                <li><a href="/static/partnerprogramm">Programa de socios</a></li>
+                                <li><a href="/static/partner">Socio</a></li>
+                            </ul>
+                            <h2 style="margin-top: 35px;">
+                                Social Media
+                            </h2>
+                            <ul>
+                                <li>
+                                    <table cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td style="width: 70px"><a href="http://www.facebook.com/pages/ClipDealercom/51361683442" target="_blank">Facebook</a></td>
+                                            <td><img src="/resources/buttons/facebook.gif" border="0"/></td>
+                                        </tr>
+                                    </table>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h2>
+                                Ayuda                            </h2>
+                            <ul>
+                                <li><a href="/static/faq">FAQ</a></li>
+                                <li><a href="/?ACTION=cookies">Configuraciones de cookies</a></li>
+                                <li style="border: 0px solid red">
+                                    <table cellspacing="0" cellpadding="0">
+                                        <tr>
+                                            <td style="width:70px"><a href="/static/clipeinkaeufer">As&iacute; se compra</a></td>
+                                            <td><img src="/resources/buttons/zahlmoeglichkeiten.gif" /></td>
+                                        </tr>
+                                    </table>
+                                </li>
+                                <li><a href="/static/clipverkaeufer">As&iacute; se vende</a></li>
+                                <li><a href="/static/wiederrufsrecht">Derecho de revocaci&oacute;n</a></li>
+                                <li><a href="/static/billingaccountinfo">Cuenta de facturaci&oacute;n</a></li>
+                                <li><a href="/socialmedialicense">Social Media License</a></li>
+                            </ul>
+                        </li>
+                        <li style="width:200px">
+                            <h2>
+                                Contratos                            </h2>
+                            <ul>
+                                <li><a href="/static/agb">Condiciones de uso</a></li>
+                                <li><a href="/static/kundenlizenzvertrag">Acuerdo de licencia de cliente v&iacute;deo/foto</a></li>
+                                <li><a href="/static/urheberlizenzvertrag">Acuerdo de licencia de derechos de autor v&iacute;deo/foto</a></li>
+                                <li><a href="/static/audio_kundenlizenzvertrag">Acuerdo de licencia de cliente audio</a></li>
+                                <li><a href="/static/audio_urheberlizenzvertrag">Acuerdo de licencia de derechos de autor para audio</a></li>
+                                <li><a href="/static/datenschutz">Protecci&oacute;n de datos</a></li>
+                                <li><a href="/resources/pdfs/modelreleasevertrag_es.pdf" target="_blank">Cesi&oacute;n de derechos de imagen</a></li>
+                                <li><a href="/resources/pdfs/propertyreleasevetrag_es.pdf" target="_blank">Autorizaci&oacute;n de propiedad</a></li>
+                            </ul>
+                        </li>
+                        <li style="width: 190px; float: right;">
+                            <div class="item">
+                                <a target="_blank"
+                                href="https://www.trustedshops.de/bewertung/info_XEC81EB6A8B70DC453DACCFEC22F6B7CF.html"
+                                title="Kundenbewertungen von clipdealer.com einsehen"><img class="bewertung" alt="Kundenbewertungen von clipdealer.com" border="0"
+                                src="https://www.trustedshops.com/bewertung/widget/widgets/XEC81EB6A8B70DC453DACCFEC22F6B7CF.gif" /></a>
+                            </div>
+                        </li>
+                    </ul>
+                    <div style="clear: both"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cookie consent -->
+        <script type="text/javascript">
+            var options = {
+                domain: '.clipdealer.com',
+                title: 'Cookies y privacidad',
+                message: 'Usamos cookies en nuestro sitio web. Algunos de ellos son necesarios (por ejemplo, para el registro), mientras que otros ayudan a mejorar la oferta en l&iacute;nea y hacerla f&aacute;cil de usar. Puede acceder a su configuraci&oacute;n en cualquier momento y anular la selecci&oacute;n de cookies en cualquier momento (en el pie de p&aacute;gina de nuestro sitio web).',
+                moreInfoLabel: 'Weitere Informationen',
+                acceptBtnLabel: 'Permitir selecci&oacute;n',
+                advancedBtnLabel: 'Aceptar cookies',
+                fixedCookieTypeLabel: 'Necesario',
+                fixedCookieTypeDesc: 'Estas son cookies que son esenciales para el buen funcionamiento del sitio web.',
+                cookieTypesTitle: 'Seleccione cookies para aceptar',
+                link: '/static/datenschutz',
+                cookieTypes: [
+                    {
+                        type: 'Preferencias',
+                        value: 'preferences',
+                        description: 'Las cookies de preferencias permiten que un sitio web recuerde información que afecta el comportamiento o el aspecto de un sitio web, como la cantidad de imágenes por página.'
+                    },
+                    {
+                        type: 'Estad&iacute;sticas',
+                        value: 'statistics',
+                        description: 'Las cookies de estad&iacute;sticas ayudan a los propietarios de sitios web a comprender c&oacute;mo los visitantes interact&uacute;an con los sitios web al recopilar y reportar informaci&oacute;n de forma an&oacute;nima.'
+                    },
+                    {
+                        type: 'M&aacute;rketing',
+                        value: 'marketing',
+                        description: 'Las cookies de marketing se utilizan para seguir a los visitantes de los sitios web, p. para identificar ventas relacionadas con socios.'
+                    }
+                ]
+            }
+            $('body').ihavecookies(options);
+        </script>
+
+            <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.eu01.nr-data.net","licenseKey":"NRJS-e7ba2a8f79a650a7e8e","applicationID":"46671555","transactionName":"MhBSZQoZD0oDVBIIWQtaZUMRVwhXBlIeT0YNBQ==","queueTime":0,"applicationTime":232,"atts":"HldRE0IDHEQ=","errorBeacon":"bam.eu01.nr-data.net","agent":""}</script></body>
+</html>
