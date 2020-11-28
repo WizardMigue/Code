@@ -1,53 +1,91 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 /* Versión para móvil */
 
-header{
+header {
     height: 40px;
     background-color: lawngreen;
 }
 
-nav{
+nav {
     background-color: lightcoral;
     height: 30px;
 }
 
-nav > a {
-    display: inline-block;
-    width: 20%;
+nav>a {
+    display: inline;
+    width: 5%;
     height: 90%;
+    text-decoration: none;
+}
+
+nav>a>img {
+    height: 80%;
     margin-left: 15px;
 }
 
-nav > a > img {
-    height: 80%;
-}
-
-nav > a > p{
+nav>a>p {
     display: none;
 }
 
-footer{
+nav>a>span {
+    color: black;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    display: inline
+}
+
+aside {
+    background-color: lightcoral;
+    height: 30px;
+}
+
+aside>a {
+    display: inline;
+    height: 90%;
+    text-decoration: none;
+}
+
+aside>a>img {
+    height: 60%;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+aside>a>p {
     display: none;
 }
 
-main{
+aside>a>span {
+    color: black;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    display: inline
+}
+
+footer {
+    display: none;
+}
+
+main {
     background-color: khaki;
     min-height: calc(100vh - 100px);
 }
 
-main > section{
+main>section {
     margin: 5px;
     background-color: lightskyblue;
     height: 300px;
 }
 
-
-aside{
+aside {
     background-color: lavender;
     min-height: 40px;
     bottom: 0;
@@ -58,56 +96,97 @@ aside{
 
 /* Versión para tablet */
 
-@media (min-width: 480px){
-    aside{
-        position: absolute;
-        width: 20vh;
-        height: 90%;
-        min-height: calc(100vh - 45px);
-    }
-
-    nav{
-        z-index: 1;
-        position: absolute;
-        width: 100%;
-        height: 45px;
-    }
-
-    header{
-        top: 50px;
-        width: 80%;
-        height: 50px;
-        position: absolute;
-        left: 20%;
-    }
-
-    main{
-        z-index: 1;
-    }
-
-    main > section{
-        left: 80%;
-        min-height: calc(100vh - 20px -45px);
-    }
-}
-@media (min-width: 800px){
-    aside{
+@media (min-width: 480px) {
+    aside {
         top: 50px;
         width: 20%;
         height: 80%;
         position: absolute;
         min-height: calc(100vh - 50px);
     }
-
-
-    header{
+    aside>a {
+        margin-top: 10px;
+        display: block;
+        width: 100%;
+        height: 20%;
+        text-decoration: none;
+    }
+    aside>a>img {
+        height: 50px;
+    }
+    aside>a>p {
+        display: none;
+    }
+    aside>a>span {
+        color: black;
+        border-style: solid;
+        border-radius: 15px;
+        border-width: 1px;
+        display: block;
+    }
+    header {
+        top: 50px;
         width: 80%;
         height: 50px;
         position: absolute;
         left: 20%;
     }
+    nav {
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+        height: 45px;
+    }
+    main {
+        top: 100px;
+        width: 80%;
+        position: absolute;
+        left: 20%;
+        min-height: calc(100vh - 100px);
+    }
+    main>section {
+        height: 50px;
+    }
+    .section1 {
+        max-width: calc(100vh - 30%);
+        position: relative;
+        left: 0;
+        width: 50%;
+        min-height: calc(100vh - 700px);
+        border-style: solid;
+    }
+    .section2 {
+        position: relative;
+        left: 0;
+        width: 50%;
+        min-height: calc(100vh - 460px);
+        border-style: solid;
+    }
+    .section3 {
+        top: 0px;
+        position: absolute;
+        left: 51%;
+        width: 47%;
+        min-height: calc(100vh - 660px);
+        border-style: solid;
+    }
+}
 
-    footer{
+@media (min-width: 800px) {
+    aside {
+        top: 50px;
+        width: 20%;
+        height: 80%;
+        position: absolute;
+        min-height: calc(100vh - 50px);
+    }
+    header {
+        width: 80%;
+        height: 50px;
+        position: absolute;
+        left: 20%;
+    }
+    footer {
         background-color: darkorange;
         display: block;
         z-index: 1;
@@ -117,34 +196,31 @@ aside{
         left: 20%;
         bottom: 0;
     }
-
-    main{
+    main {
         top: 100px;
         width: 80%;
         position: absolute;
         left: 20%;
         min-height: calc(100vh - 100px);
     }
-
-
-    .section1{
-        position: relative;
-        left: 0px;
+    .section1 {
+        max-width: calc(100vh - 30%);
+        position: absolute;
+        left: 0;
         width: 30%;
         min-height: calc(100vh - 160px);
         border-style: solid;
     }
-    .section2{
-        bottom: 400px;
-        position: fixed;
-        left: 36%;
-        width: 31%;
+    .section2 {
+        position: absolute;
+        left: 31%;
+        width: 35%;
+        min-height: calc(100vh - 160px);
         border-style: solid;
     }
-    .section3{
-        position: relative;
-        left: 72%;
-        bottom: 1067px;
+    .section3 {
+        position: absolute;
+        left: 67%;
         width: 31%;
         min-height: calc(100vh - 160px);
         border-style: solid;
